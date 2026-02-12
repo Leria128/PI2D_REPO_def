@@ -264,12 +264,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 155106356}
-  - component: {fileID: 155106362}
   - component: {fileID: 155106353}
   - component: {fileID: 155106358}
   - component: {fileID: 155106357}
   - component: {fileID: 155106359}
   - component: {fileID: 155106361}
+  - component: {fileID: 155106362}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff163d5f0010fd242b8a52b20af93aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collision_Test
---- !u!61 &155106362
-BoxCollider2D:
+--- !u!70 &155106362
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -455,18 +455,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.026024938, y: 1.1320846}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.9132502, y: 2.0149722}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.03071475, y: 1.0150568}
+  m_Size: {x: 0.5982877, y: 1.4334931}
+  m_Direction: 0
 --- !u!1001 &159941125
 PrefabInstance:
   m_ObjectHideFlags: 0
