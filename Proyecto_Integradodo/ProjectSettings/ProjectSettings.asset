@@ -694,8 +694,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Proyecto_Integradodo
-  metroPackageVersion: 
+  metroPackageName: ProyectoIntegradodo
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -703,7 +703,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Proyecto_Integradodo
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Proyecto_Integradodo
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -770,7 +770,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 5ea6067f-e3d9-4caf-9a5e-240eea224ce1
   framebufferDepthMemorylessMode: 0
