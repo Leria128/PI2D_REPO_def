@@ -23,41 +23,38 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>(); //Autoreferenciar componenete propio
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         input = GetComponent<PlayerInput>();
-    }
-
-    private void Start()
-    {
-        isFacingRight = true;
     }
 
     private void Update()
     {
-
-        //Animationmanagement();
         AnimationManagement();
-        //direccion del personaje
+        HandleFlip();
+    }
+
+    void AnimationManagement()
+    {
+
+        bool isWalkign = moveInput != Vector2.zero;
+        anim.SetBool("Walkign", isWalkign);
+
+
+    }
+    void HandleFlip()
+    {
 
         //Flip
         if (moveInput.x > 0)
             facing = FacingDirection.Right;
-        else if(moveInput.x < 0)
+        else if (moveInput.x < 0)
             facing = FacingDirection.Left;
-        if(moveInput.y > 0)
-            facing = FacingDirection.Up;    
+        if (moveInput.y > 0)
+            facing = FacingDirection.Up;
         else if (moveInput.y < 0)
-            facing = FacingDirection.Down;  
+            facing = FacingDirection.Down;
 
 
-
-
-    }
-
-    void AnimationManagement() 
-    {
-     if(moveInput.x != 0) anim.SetBool("Walkign" , true);
-     else anim.SetBool("Walkign", false);
     }
 
     void FixedUpdate()
