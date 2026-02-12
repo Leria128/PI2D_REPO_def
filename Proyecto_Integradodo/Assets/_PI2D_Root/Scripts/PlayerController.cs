@@ -34,9 +34,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        
-        //Animationmanagement();
 
+        //Animationmanagement();
+        AnimationManagement();
         //direccion del personaje
 
         //Flip
@@ -52,6 +52,12 @@ public class PlayerController : MonoBehaviour
 
 
 
+    }
+
+    void AnimationManagement() 
+    {
+     if(moveInput.x != 0) anim.SetBool("Walkign" , true);
+     else anim.SetBool("Walkign", false);
     }
 
     void FixedUpdate()
