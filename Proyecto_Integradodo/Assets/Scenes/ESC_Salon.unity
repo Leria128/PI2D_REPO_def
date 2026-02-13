@@ -1127,7 +1127,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0314973, y: 0.020997822}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1137,7 +1137,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.0629946, y: 0.95800436}
   m_EdgeRadius: 0
 --- !u!114 &357572370
 MonoBehaviour:
@@ -9757,7 +9757,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9997,7 +9997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6498372436375660811, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_Size.y
-      value: 5.000868
+      value: 2.863652
       objectReference: {fileID: 0}
     - target: {fileID: 6498372436375660811, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_Offset.x
@@ -10005,7 +10005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6498372436375660811, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_Offset.y
-      value: -0.4432993
+      value: -0.43312177
       objectReference: {fileID: 0}
     - target: {fileID: 8484988417918396356, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: camPositionToSet.x
@@ -14122,6 +14122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomChange_COCINA
       objectReference: {fileID: 0}
+    - target: {fileID: 3933820859602533956, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.87397
@@ -14176,7 +14180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6498372436375660811, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_Size.y
-      value: 4.9338136
+      value: 3.5293603
       objectReference: {fileID: 0}
     - target: {fileID: 6498372436375660811, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_Offset.x
@@ -14184,7 +14188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6498372436375660811, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_Offset.y
-      value: -0.23841262
+      value: -0.3096521
       objectReference: {fileID: 0}
     - target: {fileID: 8484988417918396356, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: camPositionToSet.x
@@ -20525,7 +20529,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -25691,7 +25695,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -31986,7 +31990,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.068244174}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -31996,7 +32000,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.8635117}
   m_EdgeRadius: 0
 --- !u!1 &2078178908
 GameObject:
