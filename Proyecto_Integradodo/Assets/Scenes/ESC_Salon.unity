@@ -9943,13 +9943,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: "RoomChange_SAL\xD3N(2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3933820859602533956, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.93397
+      value: 8.81
       objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.86568
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14128,11 +14132,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.87397
+      value: 11.09
       objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.10568
+      value: -1.06
       objectReference: {fileID: 0}
     - target: {fileID: 4231379536869644556, guid: 80c0e047f81f2e04e9bfdd6903135a18, type: 3}
       propertyPath: m_LocalPosition.z
