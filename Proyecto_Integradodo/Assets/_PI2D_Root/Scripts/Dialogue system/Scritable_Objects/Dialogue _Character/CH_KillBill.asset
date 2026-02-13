@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CH_KillBill
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem_V.Dialogue_Character
   characterName: Maddison
-  profilePhoto: {fileID: 0}
+  profilePhoto: {fileID: 4950936706824990946, guid: 142c2430227ee5a4ea8baf2f6b347ead, type: 3}
